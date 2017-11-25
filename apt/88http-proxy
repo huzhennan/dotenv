@@ -1,0 +1,3 @@
+// copy to /etc/apt/apt.conf.d/
+// Acquire::http::Proxy "http://username:password@proxy.server:port/";
+Acquire::http::Proxy "http://localhost:56789/";
